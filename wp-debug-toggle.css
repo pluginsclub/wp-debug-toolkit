@@ -1,0 +1,12 @@
+/* WP_DEBUG Toggle */
+
+/* On status */
+#wp-admin-bar-wp-debug-toggle.wp-debug-on {
+    background-color: red;
+    color: white;
+}
+/* Off status */
+#wp-admin-bar-wp-debug-toggle.wp-debug-off {
+    background-color: green;
+    color: white;
+}
