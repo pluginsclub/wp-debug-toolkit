@@ -4,7 +4,7 @@ Tags: WP_DEBUG, debug, error_log, enable wp debug, disable wpdebug
 Requires at least: 4.0
 Tested up to: 6.1
 Requires PHP: 5.4
-Stable tag: 1.0
+Stable tag: 1.1
 Donate link: https://plugins.club/wordpress/wp_debug-toggle/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -46,13 +46,17 @@ Yes, all the best development practices have been used and the plugin code is ve
 
 == Upgrade Notice ==
 
-This is new version 1.0
+No update required, plugin functionality remains the same.
 
 == Screenshots ==
 
 1. Toggle WP_DEBUG from the toolbar
  
 == Changelog ==
+
+= 1.1 =
+
+Added "Rate this plugin" link to the plugin page
 
 = 1.0 =
 The first stable public version.

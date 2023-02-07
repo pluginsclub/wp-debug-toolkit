@@ -3,14 +3,17 @@
  * Plugin Name: WP_DEBUG Toggle
  * Plugin URI: https://plugins.club/wordpress/wp_debug-toggle/
  * Description: 🔴Enable / 🟢Disable WP_DEBUG from admin and update wp-config.php file.
- * Version: 1.0
+ * Version: 1.1
  * Author: plugins.club
  * Author URI: https://plugins.club/
  */
 
+// Include plugin helper
+include 'include/PluginHelperClass.php';
+
 // Register and enqueue the plugin's stylesheet
 function wp_debug_toggle_enqueue_styles() {
-    wp_register_style( 'wp-debug-toggle', plugin_dir_url( __FILE__ ) . 'wp-debug-toggle.css' );
+    wp_register_style( 'wp-debug-toggle', plugin_dir_url( __FILE__ ) . '/include/css/wp-debug-toggle.css' );
     wp_enqueue_style( 'wp-debug-toggle' );
 }
 add_action( 'admin_enqueue_scripts', 'wp_debug_toggle_enqueue_styles' );
