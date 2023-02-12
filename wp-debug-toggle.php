@@ -106,4 +106,3 @@ function add_wp_debug_toggle_script() {
 }
 add_action( 'admin_footer', 'add_wp_debug_toggle_script' );
 add_action( 'wp_footer', 'add_wp_debug_toggle_script' );
-
