@@ -13,9 +13,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Toggle WP_DEBUG **🔴ON** or **🟢OFF** from the wp-admin bar.
 
-WP_DEBUG Toggle allows you to Enable [WP_DEBUG](https://wordpress.org/support/article/debugging-in-wordpress/) with one click to **log PHP, database and JavaScript errors** when you need to, and disable it when you're done. No need to manually edit wp-config.php file. 
+WP_DEBUG Toggle allows you to Enable [WP_DEBUG](https://wordpress.org/support/article/debugging-in-wordpress/) with one click to **log PHP or MySQL related errors** when you need to, and disable it when you're done. No need to manually edit wp-config.php file. 
 
-For more free WordPress plugins please visit [plugins.club](https://plugins.club/).
+For more free WordPress plugins please visit [♣️ plugins.club](https://plugins.club/).
 
 == Installation ==
 
@@ -23,6 +23,12 @@ For more free WordPress plugins please visit [plugins.club](https://plugins.club
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 The current WP_DEBUG value will be shown in the top right corner of the admin top bar. Simply click on the value to change it.
+
+If you enjoy the plugin, please leave a review! ⭐
+
+If you have a feature request, please create an issue in the [GitHub repository](https://github.com/pluginsclub/wp-debug-toolkit). ➕
+
+If you need support, please use the support forum to reach out. 🆘
 
 For basic usage, you can also have a look at the [plugin web site](https://plugins.club/).
 
